@@ -1,11 +1,11 @@
-package com.devflow.user.service;
+package com.codespec.user.service;
 
-import com.devflow.user.dto.JwtResponseDto;
-import com.devflow.user.dto.LoginDto;
-import com.devflow.user.dto.UserRegistrationDto;
-import com.devflow.user.dto.UserResponseDto;
-import com.devflow.user.model.User;
-import com.devflow.user.util.JwtUtil;
+import com.codespec.user.dto.JwtResponseDto;
+import com.codespec.user.dto.LoginDto;
+import com.codespec.user.dto.UserRegistrationDto;
+import com.codespec.user.dto.UserResponseDto;
+import com.codespec.user.model.User;
+import com.codespec.user.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

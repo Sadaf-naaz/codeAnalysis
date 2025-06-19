@@ -1,4 +1,4 @@
-package com.devflow.user.controller;
+package com.codespec.user.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.health.Health;

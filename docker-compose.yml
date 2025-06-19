@@ -3,7 +3,7 @@ services:
   postgres:
     image: postgres:15
     environment:
-      POSTGRES_DB: devflow_users
+      POSTGRES_DB: codespec_users
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:
@@ -14,8 +14,8 @@ services:
   mongodb:
     image: mongo:6
     environment:
-      MONGO_INITDB_ROOT_USERNAME: devflow
-      MONGO_INITDB_ROOT_PASSWORD: devflow123
+      MONGO_INITDB_ROOT_USERNAME: codespec
+      MONGO_INITDB_ROOT_PASSWORD: codespec123
     ports:
       - "27017:27017"
     volumes:
@@ -29,8 +29,8 @@ services:
   rabbitmq:
     image: rabbitmq:3-management
     environment:
-      RABBITMQ_DEFAULT_USER: devflow
-      RABBITMQ_DEFAULT_PASS: devflow123
+      RABBITMQ_DEFAULT_USER: codespec
+      RABBITMQ_DEFAULT_PASS: codespec123
     ports:
       - "5672:5672"
       - "15672:15672"

@@ -1,4 +1,4 @@
-package com.devflow.user.config;
+package com.codespec.user.config;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
@@ -15,9 +15,9 @@ public class OpenApiConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("DevFlow User Service API")
+                        .title("codespec User Service API")
                         .version("1.0")
-                        .description("User Management and Authentication Service for DevFlow Platform"))
+                        .description("User Management and Authentication Service for codespec Platform"))
                 .addSecurityItem(new SecurityRequirement().addList("bearerAuth"))
                 .components(new Components()
                         .addSecuritySchemes("bearerAuth",

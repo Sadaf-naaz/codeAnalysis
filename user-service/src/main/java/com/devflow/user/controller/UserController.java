@@ -1,9 +1,9 @@
-package com.devflow.user.controller;
+package com.codespec.user.controller;
 
-import com.devflow.user.dto.UserRegistrationDto;
-import com.devflow.user.dto.UserResponseDto;
-import com.devflow.user.model.Role;
-import com.devflow.user.service.UserService;
+import com.codespec.user.dto.UserRegistrationDto;
+import com.codespec.user.dto.UserResponseDto;
+import com.codespec.user.model.Role;
+import com.codespec.user.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

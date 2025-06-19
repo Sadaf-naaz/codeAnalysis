@@ -134,7 +134,7 @@ export const reportService = {
       link.href = url;
 
       // Set filename based on format
-      const filename = `devflow-report-${reportId}.${format}`;
+      const filename = `codespec-report-${reportId}.${format}`;
       link.setAttribute('download', filename);
 
       // Append to body, click, and remove

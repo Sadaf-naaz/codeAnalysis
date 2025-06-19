@@ -1,4 +1,4 @@
-package com.devflow.user.dto;
+package com.codespec.user.dto;
 
 public class JwtResponseDto {
     private String token;

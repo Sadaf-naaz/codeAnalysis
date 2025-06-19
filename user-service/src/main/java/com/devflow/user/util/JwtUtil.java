@@ -1,4 +1,4 @@
-package com.devflow.user.util;
+package com.codespec.user.util;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;

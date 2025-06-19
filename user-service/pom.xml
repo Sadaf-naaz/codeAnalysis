@@ -12,10 +12,10 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.devflow</groupId>
+    <groupId>com.codespec</groupId>
     <artifactId>user-service</artifactId>
     <version>1.0.0</version>
-    <name>DevFlow User Service</name>
+    <name>codespec User Service</name>
 
     <properties>
         <java.version>17</java.version>

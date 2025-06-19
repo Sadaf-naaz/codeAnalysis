@@ -1,4 +1,4 @@
-package com.devflow.user.util;
+package com.codespec.user.util;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;

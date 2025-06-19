@@ -1,10 +1,10 @@
-package com.devflow.user.controller;
+package com.codespec.user.controller;
 
-import com.devflow.user.dto.JwtResponseDto;
-import com.devflow.user.dto.LoginDto;
-import com.devflow.user.dto.UserRegistrationDto;
-import com.devflow.user.dto.UserResponseDto;
-import com.devflow.user.service.AuthService;
+import com.codespec.user.dto.JwtResponseDto;
+import com.codespec.user.dto.LoginDto;
+import com.codespec.user.dto.UserRegistrationDto;
+import com.codespec.user.dto.UserResponseDto;
+import com.codespec.user.service.AuthService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;

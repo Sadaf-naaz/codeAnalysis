@@ -1,7 +1,7 @@
-package com.devflow.user.service;
+package com.codespec.user.service;
 
-import com.devflow.user.model.User;
-import com.devflow.user.repository.UserRepository;
+import com.codespec.user.model.User;
+import com.codespec.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

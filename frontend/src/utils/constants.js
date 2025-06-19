@@ -101,9 +101,9 @@ export const REFRESH_INTERVALS = {
 
 // Local Storage Keys
 export const STORAGE_KEYS = {
-  AUTH_TOKEN: 'devflow_auth_token',
-  USER_PREFERENCES: 'devflow_user_preferences',
-  THEME: 'devflow_theme'
+  AUTH_TOKEN: 'codespec_auth_token',
+  USER_PREFERENCES: 'codespec_user_preferences',
+  THEME: 'codespec_theme'
 };
 
 // Date Formats

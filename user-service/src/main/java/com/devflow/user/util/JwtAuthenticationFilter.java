@@ -1,6 +1,6 @@
-package com.devflow.user.util;
+package com.codespec.user.util;
 
-import com.devflow.user.service.CustomUserDetailsService;
+import com.codespec.user.service.CustomUserDetailsService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

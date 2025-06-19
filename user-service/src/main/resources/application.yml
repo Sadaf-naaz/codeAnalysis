@@ -6,7 +6,7 @@ spring:
     name: user-service
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/devflow_users
+    url: jdbc:postgresql://localhost:5432/codespec_users
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
@@ -41,5 +41,5 @@ jwt:
 
 logging:
   level:
-    com.devflow: DEBUG
+    com.codespec: DEBUG
     org.springframework.security: DEBUG

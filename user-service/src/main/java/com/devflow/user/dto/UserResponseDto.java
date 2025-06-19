@@ -1,6 +1,6 @@
-package com.devflow.user.dto;
+package com.codespec.user.dto;
 
-import com.devflow.user.model.Role;
+import com.codespec.user.model.Role;
 import java.time.LocalDateTime;
 import java.util.Set;
 

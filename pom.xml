@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.thehashmap</groupId>
-    <artifactId>DevFlow</artifactId>
+    <artifactId>codespec</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>

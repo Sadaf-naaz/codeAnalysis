@@ -1,4 +1,4 @@
-package com.devflow.user.model;
+package com.codespec.user.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;

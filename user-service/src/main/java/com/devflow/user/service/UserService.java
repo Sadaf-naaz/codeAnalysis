@@ -1,10 +1,10 @@
-package com.devflow.user.service;
+package com.codespec.user.service;
 
-import com.devflow.user.dto.UserRegistrationDto;
-import com.devflow.user.dto.UserResponseDto;
-import com.devflow.user.model.Role;
-import com.devflow.user.model.User;
-import com.devflow.user.repository.UserRepository;
+import com.codespec.user.dto.UserRegistrationDto;
+import com.codespec.user.dto.UserResponseDto;
+import com.codespec.user.model.Role;
+import com.codespec.user.model.User;
+import com.codespec.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,8 +1,8 @@
-package com.devflow.user.config;
+package com.codespec.user.config;
 
-import com.devflow.user.service.CustomUserDetailsService;
-import com.devflow.user.util.JwtAuthenticationEntryPoint;
-import com.devflow.user.util.JwtAuthenticationFilter;
+import com.codespec.user.service.CustomUserDetailsService;
+import com.codespec.user.util.JwtAuthenticationEntryPoint;
+import com.codespec.user.util.JwtAuthenticationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

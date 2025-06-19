@@ -352,7 +352,7 @@ const Settings = () => {
                       <div>
                         <h4 className="text-sm font-medium text-yellow-800">API Key Management</h4>
                         <p className="text-sm text-yellow-700 mt-1">
-                          API keys allow you to integrate DevFlow with your CI/CD pipeline. Keep your keys secure and rotate them regularly.
+                          API keys allow you to integrate codespec with your CI/CD pipeline. Keep your keys secure and rotate them regularly.
                         </p>
                         <button className="mt-3 text-sm font-medium text-yellow-800 hover:text-yellow-900">
                           Generate New API Key →

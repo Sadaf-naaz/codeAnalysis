@@ -1,4 +1,4 @@
-# DevFlow - Distributed Code Quality Platform
+# codespec - Distributed Code Quality Platform
 
 A microservices-based platform for code analysis and quality assessment using AI-powered tools.
 

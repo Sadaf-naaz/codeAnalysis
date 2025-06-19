@@ -1,4 +1,4 @@
-package com.devflow.user.dto;
+package com.codespec.user.dto;
 
 import jakarta.validation.constraints.NotBlank;
 

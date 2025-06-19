@@ -60,7 +60,7 @@ const Sidebar = ({ isOpen, onClose }) => {
           <div className="p-2 bg-blue-600 rounded-lg">
             <Code2 className="w-6 h-6 text-white" />
           </div>
-          <span className="text-xl font-bold text-gray-900">DevFlow</span>
+          <span className="text-xl font-bold text-gray-900">codespec</span>
         </div>
 
         {/* User info */}
